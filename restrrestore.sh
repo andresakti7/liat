@@ -134,7 +134,7 @@ echo -e "━━━━━━━━━━━━━━━━━━━━━━━�
 echo " Select the existing client you want to renew"
 echo " ketik [0] kembali kemenu"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "     No  User   UUID"
+echo "     No  User   EXP   UUID"
 grep -E "^### " "/etc/trojan/userexp" | cut -d ' ' -f 2-4 | nl -s ') ' | lolcat
 echo ""
 echo ""
